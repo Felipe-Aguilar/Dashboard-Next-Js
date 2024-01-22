@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import style from './style.module.scss'
-import SideBar from '../components/SideBar';
+import SideBar from '@/components/SideBar';
+
 
 export default function DashboardLayout({children}: {
     children: React.ReactNode;

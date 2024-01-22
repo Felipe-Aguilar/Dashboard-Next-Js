@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import style from '../dashboard/style.module.scss'; 
+import style from '../app/dashboard/style.module.scss';
 import { usePathname } from 'next/navigation';
 
 interface Props {

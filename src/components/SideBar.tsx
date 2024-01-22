@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import style from '../dashboard/style.module.scss'; 
+import style from '../app/dashboard/style.module.scss'; 
 import SideBarMenuItem from './SideBarMenuItem';
-import { BsHouse, BsCalculator, BsEyeglasses } from "react-icons/bs";
+import { BsHouse, BsCalculator, BsEyeglasses, BsHeart } from "react-icons/bs";
 
 const menuItems = [
     {
@@ -17,10 +17,16 @@ const menuItems = [
         subTitle: 'Contador Client Side'
     },
     {
-        path: '/dashboard/pokemons',
+        path: '/dashboard/wizards',
         icon: <BsEyeglasses />,
-        title: 'Pokemons',
+        title: 'Wizards',
         subTitle: 'Generación estática'
+    },
+    {
+        path: '/dashboard/favorites',
+        icon: <BsHeart />,
+        title: 'Favoritos',
+        subTitle: 'Global State'
     }
 ]
 

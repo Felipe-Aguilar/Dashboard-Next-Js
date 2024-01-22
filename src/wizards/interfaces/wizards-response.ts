@@ -14,14 +14,14 @@
 export interface WizardsResponse {
     id:               string;
     name:             string;
-    alternate_names:  string[];
-    dateOfBirth:      null | string;
-    yearOfBirth:      number | null;
-    wizard:           boolean;
-    hogwartsStudent:  boolean;
-    hogwartsStaff:    boolean;
-    actor:            string;
-    alternate_actors: string[];
-    alive:            boolean;
-    image:            string;
+    alternate_names?:  string[];
+    dateOfBirth?:      null | string;
+    yearOfBirth?:      number | null;
+    wizard?:           boolean;
+    hogwartsStudent?:  boolean;
+    hogwartsStaff?:    boolean;
+    actor?:            string;
+    alternate_actors?: string[];
+    alive?:            boolean;
+    image?:            string;
 }
